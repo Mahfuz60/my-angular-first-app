@@ -6,6 +6,8 @@ import { BlogPostComponent } from './blog-post/blog-post.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import { CountryListComponent } from './country-list/country-list.component';
+import { UserAuthModule } from './user-auth/user-auth.module';
+
 
 
 
@@ -22,13 +24,13 @@ import { CountryListComponent } from './country-list/country-list.component';
     StudentListComponent,
     CountryListComponent,
   
-   
-   
+
    
    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    UserAuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
