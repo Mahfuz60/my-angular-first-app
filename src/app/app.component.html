@@ -4,9 +4,24 @@
       <h1 class="mx-auto">Hello {{title}}</h1>
       <hr class="text-danger p-1">
       <h4>Function Call in Angular</h4>
-      <button class="bg-danger text-white" (click)="getName()">Click Me</button>
-      <hr>
+      <button 
+      class="bg-danger text-white"
+       (click)="getName()">Click Me</button>
     
+      <hr>
+      <div>
+        <input
+        #box 
+        type="text" 
+        placeholder="Enter your Name" 
+        name="name"
+
+        />
+        <button (click)="getValues(box.value)">Submit</button>
+
+        <p>Box Value is:{{displayValue}}</p>
+      </div>
+      <hr>
 
      <app-blog-post></app-blog-post>
      <app-user-list></app-user-list>
@@ -14,6 +29,11 @@
      <app-country-list></app-country-list>
      <!-- ---------------Module-login---------------------- -->
     <app-login></app-login>
+
+    <!-- Counter -->
+    <app-counter></app-counter>
+    <!-- property-binding -->
+    <app-property-binding></app-property-binding>
 
      
       

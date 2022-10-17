@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = ' Angular App';
   data="Code step by learning from Angular";
+  displayValue=''
   
 
   // function data
@@ -16,5 +17,12 @@ export class AppComponent {
   };
   getName=()=>{
     alert("Hello function you are call me!")
+  }
+
+  getValues(val:string){
+    this.displayValue=val;
+   
+        
+
   }
 }
