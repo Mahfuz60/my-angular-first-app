@@ -9,6 +9,8 @@ import { CountryListComponent } from './country-list/country-list.component';
 import { UserAuthModule } from './user-auth/user-auth.module';
 import { CounterComponent } from './counter/counter.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
+import { ConditionalStatementComponent } from './conditional-statement/conditional-statement.component';
+
 
 
 
@@ -27,6 +29,8 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
     CountryListComponent,
     CounterComponent,
     PropertyBindingComponent,
+    ConditionalStatementComponent,
+    
   
 
    

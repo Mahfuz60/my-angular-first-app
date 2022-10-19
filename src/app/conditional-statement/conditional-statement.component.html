@@ -1,0 +1,32 @@
+<!-- if-else  -->
+<h1 class="mt-4 text-info">If-Else Condition</h1>
+
+<ng-template [ngIf]="color==='red'">
+  <h1 style="color:red;font-weight:bold">Red Color</h1>
+
+</ng-template>
+
+<ng-template [ngIf]="color==='green'">
+  <h1 style="color:green;font-weight:bold">Green Color</h1>
+
+</ng-template>
+<ng-template [ngIf]="color==='blue'">
+  <h1 style="color:blue;font-weight:bold">Yellow Color</h1>
+
+</ng-template>
+<hr>
+
+
+
+<!-- switch-case -->
+<h1 class="text-warning">Switch Case Operation</h1>
+<div [ngSwitch]="show" >
+  <h5 *ngSwitchCase="'green'" style="color:green">Green Color</h5>
+  <h5 *ngSwitchCase="'orange'" style="color:orange">Orange Color</h5>
+  <h5 *ngSwitchCase="'blue'" style="color:blue">Blue Color</h5>
+  <h5 *ngSwitchCase="'gray'" style="color:grey">Gray Color</h5>
+
+
+</div>
+<hr>
+
